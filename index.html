@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unpacker</title>
+
+    <style>
+        div {
+            margin: 5px 0 20px 0px;
+        }
+    </style>
+</head>
+<body>
+
+<div>Atlas JSON <input id="atlas" type="file"/></div>
+<div>Texture PNG <input id="texture" type="file"/></div>
+<div>Out Directory <input id="out" type="file" webkitdirectory directory multiple/></div>
+<div><input id="submit" type="button" value="Process"></div>
+<div id="error"></div>
+
+<script>require('./renderer');</script>
+</body>
+</html>

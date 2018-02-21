@@ -1,0 +1,17 @@
+{
+  "name": "texture-unpacker",
+  "version": "0.0.1",
+  "description": "Splits texture packer atlas to images",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "RJA",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.8.2",
+    "electron-builder": "^19.56.0"
+  }
+}
